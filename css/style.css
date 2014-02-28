@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*
+ * avene 2013 10 
+ */
+
+/* Reset
+================================================================================================= */
+body{color:#000;background:#fff;font-size:12px;line-height:1.666em;}
+body{font-family:"Microsoft YaHei",arial,SimHei,sans-serif;}
+h1,h2,h3{font-size:100%;}
+body,h1,h2,h3,h4,ul,li,p,img{margin:0;padding:0;border:0;}
+img{margin:0;line-height:normal;}
+em,i{font-style:normal;text-decoration:none}
+ul{list-style:none;}
+
+/* Commonly Used 
+================================================================================================= */
+a{text-decoration:none}
+.cs-clear{+zoom:1;}
+.cs-clear:before,
+.cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
+
+/* Page Used 
+================================================================================================= */
+.logo{background: url('../img/logo.gif') no-repeat center;height: 104px;border-bottom:#000 solid 1px}
+.nav{height: 20px;text-align: center;padding:25px 0;border-bottom:#895603 solid 1px}
+    .navlink{display: inline-block;border-left:#000 solid 1px;height: 20px;padding:0 85px;}
+    .navlink1{border:0}
+.share{font-size: 14px;position: absolute;right:30px;top:38px}
+    .share p{float:left;padding:0 10px;line-height: 30px;}
+    .sharelink{float:left;width:30px;height:30px;background: url('../img/shareicon.gif') no-repeat 0 0;}
+    .share1{background-position: 0 0}
+    .share2{background-position: -80px 0}
+    .share3{background-position: -160px 0}
+    .sharedot{float:left;height:30px;width:30px;background: url('../img/shareicon.gif') no-repeat -34px 0;}
+.index{background:#000;position: absolute;top:176px;left:0;right:0;bottom:0}
+    .indexbg{height:100%;display: block}
+    .indexintro{background: url('../img/index_intro.gif') no-repeat;position: absolute;width: 365px;height: 220px;left:50%;top:50%;margin: -180px 0 0}
+    .indexbtn{display:block;background: url('../img/index_btn.gif') no-repeat;position: absolute;width: 268px;height: 69px;;left:50%;top:50%;margin:100px 0 0 48px}
+.page1{text-align: center;}
+    .page1video img{max-width:100%}
+    .page1mess{background: url('../img/page1mess.gif') no-repeat;width: 406px;height: 27px;margin:24px auto 26px}
+    .page1btn{background: url('../img/page1btn.gif') no-repeat;width: 268px;height: 69px;margin:0 auto 38px;display:block}
+.page2{width:1000px;margin: 0 auto;padding:60px 0 }
+    .modintro{float:left;width: 418px;font-size: 14px;padding-top:20px;}
+        .modintro h2{font-size: 18px;font-weight: normal;border-bottom:#000 solid 1px;text-align: center;line-height: 64px;}
+        .modtxt{background: url('../img/modintrobg.gif') no-repeat bottom center;padding-bottom: 80px;}
+        .modintro p{padding:14px 0 0;line-height: 20px;}
+        .modintrobtn{background: url('../img/modintrobtn.gif') no-repeat;width: 268px;height: 69px;margin:28px auto ;display:block}
+    .modshare{float:right}
+    .modsharetxt{border-top:#000 solid 1px;font-size: 18px;text-align: center;padding:58px 0 0;margin:60px 0 0;line-height: 30px;}
+.page3{}
+    .page3img{width:100%;}
+    .page3mess{margin: 66px auto 0;height: 884px;width: 884px;position: relative;text-align: center;}
+        .page3item{background: url('../img/page3item.gif') no-repeat;width: 330px;height: 472px;position: absolute;padding:136px 40px 0;}
+        .page3item1{margin:0 0 0 -205px;left:50%;padding-top:58px}
+        .page3item2{margin:405px 0 0 0;left:0;}
+        .page3item3{margin:405px 0 0 ;right:0;}
+            .page3item h3{border-bottom:#000 solid 1px;padding: 0 0 30px}
+            .page3item1 h3{padding: 0 0 44px}
+            .page3txt{padding:20px 0 0;line-height: 24px}
+    .page3pho{width:380px;height: 788px;margin: 0 auto;text-align: right;}
+    .page3btnbox{width: 860px;margin: 0 auto 130px}
+        .page3btn1{background: url('../img/page3btn1.gif') no-repeat;width: 268px;height: 69px;display:block;float: left}
+        .page3btn2{background: url('../img/page3btn2.gif') no-repeat;width: 268px;height: 69px;display:block;float: right}
+.footer{background: #000 url('../img/logo2.gif') no-repeat center;width: 100%;height:145px }
+
+/* Mobile Used
+================================================================================================= */
+@media screen and (max-width:640px){
+/**/
+    
+}
+
