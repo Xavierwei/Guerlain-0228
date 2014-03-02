@@ -19,14 +19,22 @@ a{text-decoration:none}
 .cs-clear{+zoom:1;}
 .cs-clear:before,
 .cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
+.btn {cursor: pointer;}
 
 /* Page Used 
 ================================================================================================= */
-.logo{background: url('../img/logo.gif') no-repeat center;height: 104px;border-bottom:#000 solid 1px}
+.header {height: 104px;border-bottom:#000 solid 1px;}
+.logo{display:block;background: url('../img/logo.gif') no-repeat center;width:240px;height:104px;margin:0 auto;}
 .nav{height: 20px;text-align: center;padding:25px 0;border-bottom:#895603 solid 1px}
-.mobile{display: none}
-    .navlink{display: inline-block;border-left:#000 solid 1px;height: 20px;padding:0 85px;}
-    .navlink1{border:0}
+    .nav a {background: url('../img/nav.gif') no-repeat;display: inline-block;border-left:#000 solid 1px;height: 20px;text-indent:-999em;padding:0 79px;}
+    .nav a.navlink1 {background-position:80px 0;width:134px;border:0;}
+    .nav a.navlink2 {background-position:-232px 0;width:114px;}
+    .nav a.navlink3 {background-position:-518px 0;width:135px;}
+    .nav a.navlink1.on {background-position:80px -94px;width:134px;border:0;}
+    .nav a.navlink2.on {background-position:-232px -94px;width:114px;}
+    .nav a.navlink3.on {background-position:-518px -94px;width:135px;}
+    .nav_inner {width:914px;display:inline-block;}
+    .mobile{display: none}
 .share{font-size: 14px;position: absolute;right:30px;top:38px}
     .share p{float:left;padding:0 10px;line-height: 30px;}
     .sharelink{float:left;width:30px;height:30px;background: url('../img/shareicon.gif') no-repeat 0 0;}
@@ -36,20 +44,23 @@ a{text-decoration:none}
     .sharedot{float:left;height:30px;width:30px;background: url('../img/shareicon.gif') no-repeat -34px 0;}
 .index{background:#000;position: absolute;top:176px;left:0;right:0;bottom:0}
     .indexbg{height:100%;display: block}
-    .indexintro{background: url('../img/index_intro.gif') no-repeat;position: absolute;width: 365px;height: 220px;left:50%;top:50%;margin: -180px 0 0}
-    .indexbtn{display:block;background: url('../img/index_btn.gif') no-repeat;position: absolute;width: 268px;height: 69px;;left:50%;top:50%;margin:100px 0 0 48px}
+    .indexintro{background: url('../img/index_intro.png') no-repeat;position: absolute;width: 365px;height: 220px;right:185px;top:50%;margin: -180px 0 0}
+    .indexbtn{display:block;background: url('../img/index_btn.gif') no-repeat;position: absolute;width: 268px;height: 69px;;right:239px;top:50%;margin:100px 0 0 48px}
 .page1{text-align: center;}
+    #inner-video {width:90%!important;margin:0 auto;position: relative;}
     .page1video img{max-width:100%}
+    .page1video video {width:100%}
     .page1mess{background: url('../img/page1mess.gif') no-repeat;width: 406px;height: 27px;margin:24px auto 26px}
     .page1btn{background: url('../img/page1btn.gif') no-repeat;width: 268px;height: 69px;margin:0 auto 38px;display:block}
-.page2{width:1000px;margin: 0 auto;padding:60px 0 }
-    .modintro{float:left;width: 418px;font-size: 14px;padding-top:4px;}
-        .modintro h2{font-size: 18px;font-weight: normal;border-bottom:#000 solid 1px;text-align: center;line-height: 64px;}
+
+.page2{max-width:1000px;min-width:848px;width:90%;margin: 0 auto;padding:60px 0 }
+    .modintro{float:left;width: 418px;font-size: 14px;padding-top:35px;}
+        .modintro h2{background:url('../img/page2tit1.gif') no-repeat center top;height:34px;text-indent:-999em;font-size: 18px;font-weight: normal;border-bottom:#000 solid 1px;text-align: center;line-height: 64px;}
         .modtxt{background: url('../img/modintrobg.gif') no-repeat bottom center;padding-bottom: 80px;}
         .modintro p{padding:12px 0 0;line-height: 20px;}
         .modintrobtn{background: url('../img/modintrobtn.gif') no-repeat;width: 268px;height: 69px;margin:28px auto ;display:block}
     .modshare{float:right}
-    .modsharetxt{border-top:#000 solid 1px;font-size: 18px;text-align: center;padding:58px 0 0;margin:60px 0 0;line-height: 30px;}
+    .modsharetxt{background:url('../img/page2tit2.gif') no-repeat center 40px;font-size:0;border-top:#000 solid 1px;text-align: center;padding:58px 0 0;margin:60px 0 0;line-height: 30px;}
     .page2share{background: #000;position: fixed;top:0;left: 0;right: 0;bottom: 0;opacity: 0.5;filter:alpha(opacity=50);  }
     .page2pop{position: fixed;width: 700px;height: 420px;left:50%;top:50%;margin: -210px 0 0 -350px;background: #fff;}
         .page2popclose{position: absolute;background: url('../img/page2popclose.gif') no-repeat;width: 26px;height: 26px;right: 10px;top: 10px;cursor: pointer;}
@@ -59,6 +70,7 @@ a{text-decoration:none}
         .page2poptxt p,
         .page2poptxt ul{float:left;width: 400px;padding:0 20px;}
         .page2poptxt li{padding-bottom:10px;display: block}
+
 .page3{position: relative;}
     .page3img{width:100%;}
     .page3bgtxt{position: absolute;text-align: center;top:80px;width:330px;border-bottom:#000 solid 1px;left:50%;margin-left:-165px;height: 90px;}
@@ -78,6 +90,7 @@ a{text-decoration:none}
 /**/
 .footer{background: #000 url('../img/logo2.gif') no-repeat center;width: 100%;height:145px }
 
+
 /* Mobile Used
 ================================================================================================= */
 @media screen and (max-width:640px){
@@ -87,29 +100,30 @@ a{text-decoration:none}
     .share{display: none}
     .mobile{display: block;}
         .mobile_navbtn{background: url('../imgMobile/navbtn.gif') no-repeat;width:57px;height: 45px;position: absolute;right:14px;top:30px}
-        .mobile_options{position: absolute;right: 0;top: 0;bottom: 0;background: #fff;width:550px;z-index: 10;border-left:#d4d4d4 solid 1px;
+        .mobile_options{display:none;position: fixed;right:0;top: 0;bottom: 0;background: #fff;width:550px;z-index: 10;border-left:#d4d4d4 solid 1px;
             box-shadow: 5px 0px 5px #ddd inset;-webkit-box-shadow: 5px 0px 5px #ddd inset;-moz-box-shadow: 5px 0px 5px #ddd inset;-ms-box-shadow: 5px 0px 5px #ddd inset;-o-box-shadow: 5px 0px 5px #ddd inset;}
             .mobile_logo{background:url('../imgMobile/logo.png') no-repeat center;height: 98px;border-bottom:#000 solid 1px }
             .mobile_nav a{text-align: center;font-size:24px;color:#000;border-bottom:#000 solid 1px;display:block;height:90px;line-height: 90px;}
             .mobile_nav a.on{color:#805211}
             /**/
+            .mobile_share {display: none;}
             .sharelink{float:none;width:48px;height:48px;background: url('../imgMobile/shareicon.gif') no-repeat 0 0;display: block;margin:20px auto 0;}
             .share1{background-position: 0 0}
             .share2{background-position: 0 -137px}
             .share3{background-position: 0 -274px;}
             .sharedot{float:none;height:48px;width:48px;background: url('../imgMobile/shareicon.gif') no-repeat 0 -76px;display: block;margin:20px auto 0; }
     /**/
-    .index{background: url('../imgMobile/indexpho.jpg') center bottom no-repeat;top:99px;}
+    .index{background: url('../imgMobile/indexpho.jpg') center top no-repeat;top:99px;}
         .indexbg{display:none}
         .indexintro{background: url('../imgMobile/index_intro.png') no-repeat;width:270px;height: 118px;margin:0 0 0 -135px;top:50px}
-        .indexbtn{background: url('../imgMobile/index_btn.png') no-repeat;height: 63px;margin:0 0 0 -134px;top:auto;bottom:30px}
+        .indexbtn{background: url('../imgMobile/index_btn.png') no-repeat;height: 63px;margin:0 0 0 -134px;top:auto;right:auto;left:50%;bottom:30px}
     .page1{text-align: center;}
         .page1video{height: 664px;overflow: hidden}
         .page1video img{height:664px;max-width:1458px}
         .page1mess{background: url('../imgMobile/page1mess.gif') no-repeat;width: 480px;height: 26px;margin:24px auto 26px}
         .page1btn{background: url('../imgMobile/page1btn.gif') no-repeat;width: 318px;height: 69px;margin:0 auto 38px;display:block}
 
-    .page2{width:600px;margin: 0 auto;padding:20px 0}
+    .page2{width:600px;max-width:100%;min-width:100%;margin: 0 auto;padding:20px 0}
         .modintro{float:none;margin:0 auto;font-size:18px;line-height: 24px;}
             .modintro h2{font-size: 24px;line-height:80px}
             .modintro p{padding:24px 0 0}
