@@ -1,7 +1,7 @@
 /*
  * page base action
  */
-LP.use(['jquery', 'api', 'easing', 'fileupload', 'flash-detect', 'hammer', 'transit', 'swfupload', 'swfupload-speed', 'swfupload-queue'] , function( $ , api ){
+LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit'] , function( $ , api ){
     'use strict'
 
 	var windWidth = $(window).width() - 90;
@@ -37,6 +37,10 @@ LP.use(['jquery', 'api', 'easing', 'fileupload', 'flash-detect', 'hammer', 'tran
 			}
 		}
 	);
+
+    $('body').delegate('video','click',function(){
+        $(this)[0].pause();
+    })
 
 	$('.mobile_nav a').on('click', function(e){
 		e.preventDefault();
@@ -104,6 +108,19 @@ LP.use(['jquery', 'api', 'easing', 'fileupload', 'flash-detect', 'hammer', 'tran
         $('.page2share').fadeOut();
         $('.page2pop').fadeOut();
     });
+
+
+
+    var init = function(){
+        var s = skrollr.init({
+            smoothScrollingDuration:200,
+            smoothScrolling:true,
+            easing:'outCubic'
+        });
+    }
+
+    init();
+
 });
 
 

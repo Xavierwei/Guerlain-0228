@@ -12,6 +12,8 @@ body,h1,h2,h3,h4,ul,li,p,img{margin:0;padding:0;border:0;}
 img{margin:0;line-height:normal;}
 em,i{font-style:normal;text-decoration:none}
 ul{list-style:none;}
+* {outline: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+textarea,input {-webkit-user-select: text;-khtml-user-select: text;-moz-user-select: text;-ms-user-select: text;user-select: text;}
 
 /* Commonly Used 
 ================================================================================================= */
@@ -49,7 +51,7 @@ a{text-decoration:none}
 .page1{text-align: center;}
     #inner-video {width:90%!important;margin:0 auto;position: relative;}
     .page1video img{max-width:100%}
-    .page1video video {width:100%}
+    .page1video video {width:100%;cursor: pointer;}
     .page1mess{background: url('../img/page1mess.gif') no-repeat;width: 406px;height: 27px;margin:24px auto 26px}
     .page1btn{background: url('../img/page1btn.gif') no-repeat;width: 268px;height: 69px;margin:0 auto 38px;display:block}
 
@@ -75,7 +77,8 @@ a{text-decoration:none}
         .page2poptxt li{padding-bottom:10px;display: block}
 
 .page3{position: relative;}
-    .page3img{width:100%;}
+    .page3img-wrap {overflow: hidden;height:520px;}
+    .page3img{-webkit-backface-visibility:hidden;width:100%;background: url('../img/page3bg.jpg') no-repeat;background-size:100% auto;height:1000px;}
     .page3bgtxt{position: absolute;text-align: center;top:80px;width:330px;border-bottom:#000 solid 1px;left:50%;margin-left:-165px;height: 90px;}
     .page3bgtxt2{font-size: 14px;text-align: center;line-height: 25px;position: absolute;top: 200px;width:610px;left:50%;margin-left:-300px;}
     .page3mess{margin: 66px auto 0;height: 884px;width: 884px;position: relative;text-align: center;}
@@ -89,7 +92,7 @@ a{text-decoration:none}
     .page3pho{width:380px;height: 788px;margin: 0 auto;text-align: right;}
     .page3btnbox{width: 860px;margin: 0 auto 130px}
         .page3btn1{background: url('../img/page3btn1.gif') no-repeat;width: 268px;height: 69px;display:block;float: left}
-        .page3btn2{background: url('../img/page3btn2.gif') no-repeat;width: 268px;height: 69px;display:block;float: right}
+        .page3btn2{background: url('../img/page3btn2.gif') no-repeat;width: 268px;height: 69px;display:block;float: right;position: relative;z-index:10;}
 /**/
 .footer{background: #000 url('../img/logo2.gif') no-repeat center;width: 100%;height:145px }
 

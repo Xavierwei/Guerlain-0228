@@ -76,6 +76,9 @@ seajs.config({
       src: "../plugin/jquery.hammer.js"
       ,deps: ['jquery']
     }
+    ,skrollr:{
+      src: "../plugin/skrollr.min.js"
+    }
   }
   , alias: {
     api: '../api.js?_201402#'

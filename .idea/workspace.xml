@@ -2,26 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145ec0a1-d436-4cbb-8780-04ae965d2e5e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/plugin/skrollr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/page1video.jpg" afterPath="$PROJECT_DIR$/img/page1video.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/api.js" afterPath="$PROJECT_DIR$/js/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/config.js" afterPath="$PROJECT_DIR$/js/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discover.html" afterPath="$PROJECT_DIR$/discover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lp.base.js" afterPath="$PROJECT_DIR$/js/lp.base.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/touch.html" afterPath="$PROJECT_DIR$/touch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/video-js.css" afterPath="$PROJECT_DIR$/css/video-js.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video.html" afterPath="$PROJECT_DIR$/video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gl0228.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393830846962" ignored="false" />
-    <file path="/style.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393832240267" ignored="false" />
+    <file path="/style.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393845318957" ignored="false" />
     <file path="/nav2.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393728541465" ignored="false" />
-    <file path="/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393832136824" ignored="false" />
+    <file path="/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842084229" ignored="false" />
     <file path="/nav1.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393742401731" ignored="false" />
-    <file path="/video-js.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393743688407" ignored="false" />
+    <file path="/video-js.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393836681454" ignored="false" />
     <file path="/animation.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393756358349" ignored="false" />
     <file path="/index.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393756251357" ignored="false" />
     <file path="/video.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393756409281" ignored="false" />
-    <file path="/discover.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393756337204" ignored="false" />
+    <file path="/discover.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393837354901" ignored="false" />
     <file path="/touch.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393832221949" ignored="false" />
     <file path="$PROJECT_DIR$/../bank_wall/js/api.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393760212376" ignored="false" />
     <file path="/api.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393760211618" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/js/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393761578986" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/js/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842393738" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/include/tpl.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842212374" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/css/video-js.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393836472129" ignored="false" />
+    <file path="/tpl.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842212689" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/protected/models/NodeAR.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393841260167" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/simplesamlphp/metadata/saml20-idp-remote.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393844049731" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/simplesamlphp/config/authsources.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393844103737" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/wmv_player.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393855258055" ignored="false" />
+    <file path="/wmv_player.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393855255819" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +58,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lp.base.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/lp.base.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="22" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.0">
+            <state line="27" column="22" selection-start="3663" selection-end="3663" vertical-scroll-proportion="-10.214286">
+              <folding>
+                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1393832680000" expanded="true" signature="8102:8215" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="0" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="14" selection-start="6502" selection-end="6502" vertical-scroll-proportion="-23.785715">
+            <state line="89" column="23" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,11 +92,38 @@
       <file leaf-file-name="touch.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/touch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="39" selection-start="8763" selection-end="8773" vertical-scroll-proportion="-27.464285">
+            <state line="77" column="43" selection-start="8103" selection-end="8103" vertical-scroll-proportion="-17.964285">
               <folding>
                 <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1393832508000" expanded="true" signature="9546:9659" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discover.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/discover.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="127" selection-start="7035" selection-end="7035" vertical-scroll-proportion="-13.571428">
+              <folding>
+                <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1393837248000" expanded="true" signature="9634:9747" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="14" selection-start="7293" selection-end="7773" vertical-scroll-proportion="-26.785715">
+              <folding>
+                <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1393832673000" expanded="true" signature="8193:8306" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -75,7 +132,25 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="23" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.4924749">
+            <state line="15" column="131" selection-start="733" selection-end="733" vertical-scroll-proportion="0.23829432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lp.base.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lp.base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video-js.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/video-js.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="310" column="27" selection-start="8635" selection-end="8635" vertical-scroll-proportion="-19.384615">
               <folding />
             </state>
           </provider>
@@ -101,13 +176,15 @@
       <list>
         <option value="$PROJECT_DIR$/nav2.html" />
         <option value="$PROJECT_DIR$/nav1.html" />
-        <option value="$PROJECT_DIR$/css/video-js.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/discover.html" />
         <option value="$PROJECT_DIR$/css/animation.css" />
-        <option value="$PROJECT_DIR$/video.html" />
-        <option value="$PROJECT_DIR$/js/lp.base.js" />
         <option value="$PROJECT_DIR$/touch.html" />
+        <option value="$PROJECT_DIR$/video.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/config.js" />
+        <option value="$PROJECT_DIR$/js/api.js" />
+        <option value="$PROJECT_DIR$/css/video-js.css" />
+        <option value="$PROJECT_DIR$/js/lp.base.js" />
+        <option value="$PROJECT_DIR$/discover.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
@@ -173,7 +250,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="flash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="video-player" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -198,6 +279,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js/plugin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -319,43 +405,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../bank_wall/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="95" selection-start="1184" selection-end="1275" vertical-scroll-proportion="0.41828957">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/video-js/video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/video-js/video.dev.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4863" column="40" selection-start="143448" selection-end="143448" vertical-scroll-proportion="-6.230769" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/video-js.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="41" selection-start="8722" selection-end="8722" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../bank_wall/js/config-m.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/config-m.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="397" selection-end="476" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/discover.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="28" selection-start="3684" selection-end="3684" vertical-scroll-proportion="0.10683761">
+        <state line="17" column="5" selection-start="397" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -363,20 +415,6 @@
     <entry file="file://$PROJECT_DIR$/../gar_nier/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="81" column="65" selection-start="5272" selection-end="5312" vertical-scroll-proportion="0.016239317">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="17" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.419488">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="25" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.5452992">
           <folding />
         </state>
       </provider>
@@ -395,34 +433,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/lp.base.js">
+    <entry file="file://$PROJECT_DIR$/js/plugin/skrollr.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="22" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.0">
+        <state line="1" column="77" selection-start="214" selection-end="214" vertical-scroll-proportion="0.015886288">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="14" selection-start="6502" selection-end="6502" vertical-scroll-proportion="-23.785715">
-          <folding />
+        <state line="27" column="22" selection-start="3663" selection-end="3663" vertical-scroll-proportion="-10.214286">
+          <folding>
+            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1393832680000" expanded="true" signature="8102:8215" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="7" selection-start="899" selection-end="899" vertical-scroll-proportion="0.37717122">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="108" selection-start="4659" selection-end="4750" vertical-scroll-proportion="0.27654108">
+          <folding>
+            <marker date="1390816975000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="14" selection-start="7293" selection-end="7773" vertical-scroll-proportion="-26.785715">
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1393832673000" expanded="true" signature="8193:8306" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/touch.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="39" selection-start="8763" selection-end="8773" vertical-scroll-proportion="-27.464285">
+        <state line="77" column="43" selection-start="8103" selection-end="8103" vertical-scroll-proportion="-17.964285">
           <folding>
             <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1393832508000" expanded="true" signature="9546:9659" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="0" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="23" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lp.base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="310" column="27" selection-start="8635" selection-end="8635" vertical-scroll-proportion="-19.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discover.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="127" selection-start="7035" selection-end="7035" vertical-scroll-proportion="-13.571428">
+          <folding>
+            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1393837248000" expanded="true" signature="9634:9747" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="23" selection-start="4409" selection-end="4409" vertical-scroll-proportion="0.4924749">
+        <state line="15" column="131" selection-start="733" selection-end="733" vertical-scroll-proportion="0.23829432">
           <folding />
         </state>
       </provider>
