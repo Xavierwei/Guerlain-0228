@@ -89,6 +89,21 @@ LP.use(['jquery', 'api', 'easing', 'fileupload', 'flash-detect', 'hammer', 'tran
 	LP.action('toggle_share', function(){
 		$('.mobile_share').fadeIn();
 	});
+
+    LP.action('open_more_info', function(){
+        $('.page2share').fadeIn();
+        $('.pop-rule').css({top:'-50%'}).fadeIn().dequeue().animate({top:'50%'}, 500, 'easeOutQuart');
+    });
+
+    LP.action('share_weixin', function(){
+        $('.page2share').fadeIn();
+        $('.pop-weixin').css({top:'-50%'}).fadeIn().dequeue().animate({top:'50%'}, 500, 'easeOutQuart');
+    });
+
+    LP.action('close_popup', function(){
+        $('.page2share').fadeOut();
+        $('.page2pop').fadeOut();
+    });
 });
 
 

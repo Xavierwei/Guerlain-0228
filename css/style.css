@@ -63,10 +63,13 @@ a{text-decoration:none}
     .modsharetxt{background:url('../img/page2tit2.gif') no-repeat center 40px;font-size:0;border-top:#000 solid 1px;text-align: center;padding:58px 0 0;margin:60px 0 0;line-height: 30px;}
     .page2share{background: #000;position: fixed;top:0;left: 0;right: 0;bottom: 0;opacity: 0.5;filter:alpha(opacity=50);  }
     .page2pop{position: fixed;width: 700px;height: 420px;left:50%;top:50%;margin: -210px 0 0 -350px;background: #fff;}
+        .pop-rule {width: 700px;height: 420px;margin: -210px 0 0 -350px;}
+        .pop-weixin {width:450px;text-align: center;margin:-210px 0 0 -225px;}
+        .pop-weixin .qrcode {margin:0 0 10px 0;}
         .page2popclose{position: absolute;background: url('../img/page2popclose.gif') no-repeat;width: 26px;height: 26px;right: 10px;top: 10px;cursor: pointer;}
         .page2pop h2{font-size: 30px;border-bottom: #c5c5c5 solid 1px;height:50px;font-weight: normal;text-align: center;padding: 40px 0 0;}
         .page2poptxt{font-size: 14px;padding:22px 0 0;}
-        .page2poptxt label{width:200px;float:left;text-align: right;}
+        .page2poptxt label{width:178px;float:left;text-align: right;}
         .page2poptxt p,
         .page2poptxt ul{float:left;width: 400px;padding:0 20px;}
         .page2poptxt li{padding-bottom:10px;display: block}
