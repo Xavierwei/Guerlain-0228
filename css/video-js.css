@@ -307,8 +307,8 @@ easily in the skin designer. http://designer.videojs.com/
 .vjs-default-skin .vjs-big-play-button {
     display: block;
     width:100%;height:100%;
-    position: absolute;
-    top:0;bottom:0;
+    /*position: absolute;*/
+    top:0;bottom:0;left:0;
 }
 .vjs-playing .vjs-big-play-button {display: none;}
 .vjs-paused .vjs-control-bar {opacity: 0;}

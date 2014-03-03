@@ -75,5 +75,13 @@
 	<script type="text/javascript" src="./js/sea/plugin-shim.js"></script>
 	<script type="text/javascript" src="./js/lp.core.js"></script>
 	<script type="text/javascript" src="./js/lp.base.js"></script>
+    <!--IE6透明判断-->
+    <!--[if IE 6]>
+    <script src="js/DD_belatedPNG.js"></script>
+    <script>
+        DD_belatedPNG.fix('*');
+        document.execCommand("BackgroundImageCache", false, true);
+    </script>
+    <![endif]-->
 </body>
 </html>

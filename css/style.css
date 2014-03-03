@@ -26,14 +26,14 @@ a{text-decoration:none}
 .header {height: 104px;border-bottom:#000 solid 1px;}
 .logo{display:block;background: url('../img/logo.gif') no-repeat center;width:240px;height:104px;margin:0 auto;}
 .nav{height: 20px;text-align: center;padding:25px 0;border-bottom:#895603 solid 1px}
-    .nav a {background: url('../img/nav.gif') no-repeat;display: inline-block;border-left:#000 solid 1px;height: 20px;text-indent:-999em;padding:0 79px;}
+    .nav a {background: url('../img/nav.gif') no-repeat;display: inline-block;border-left:#000 solid 1px;height: 20px;line-height:999em;*line-height:0em;_line-height:0em;padding:0 79px;overflow: hidden}
     .nav a.navlink1 {background-position:80px 0;width:134px;border:0;}
     .nav a.navlink2 {background-position:-232px 0;width:114px;}
     .nav a.navlink3 {background-position:-518px 0;width:135px;}
     .nav a.navlink1.on {background-position:80px -94px;width:134px;border:0;}
     .nav a.navlink2.on {background-position:-232px -94px;width:114px;}
     .nav a.navlink3.on {background-position:-518px -94px;width:135px;}
-    .nav_inner {width:914px;display:inline-block;}
+    .nav_inner {width:914px;display:inline-block;height: 20px;overflow: hidden}
     .mobile{display: none}
 .share{font-size: 14px;position: absolute;right:30px;top:38px}
     .share p{float:left;padding:0 10px;line-height: 30px;}
@@ -42,7 +42,7 @@ a{text-decoration:none}
     .share2{background-position: -80px 0}
     .share3{background-position: -160px 0}
     .sharedot{float:left;height:30px;width:30px;background: url('../img/shareicon.gif') no-repeat -34px 0;}
-.index{background:#000;position: absolute;top:176px;left:0;right:0;bottom:0}
+.index{background:#000;position: absolute;top:176px;left:0;right:0;bottom:0;width:100%;}
     .indexbg{height:100%;display: block}
     .indexintro{background: url('../img/index_intro.png') no-repeat;position: absolute;width: 365px;height: 220px;right:185px;top:50%;margin: -180px 0 0}
     .indexbtn{display:block;background: url('../img/index_btn.gif') no-repeat;position: absolute;width: 268px;height: 69px;;right:239px;top:50%;margin:100px 0 0 48px}
