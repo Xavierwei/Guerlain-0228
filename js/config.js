@@ -79,6 +79,10 @@ seajs.config({
     ,skrollr:{
       src: "../plugin/skrollr.min.js"
     }
+    ,queryloader:{
+      src: "../plugin/jquery.queryloader22.js"
+      ,deps: ['jquery']
+    }
   }
   , alias: {
     api: '../api.js?_201402#'

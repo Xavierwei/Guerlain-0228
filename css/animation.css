@@ -1,9 +1,13 @@
 .btn2:hover,.com-counts .clickable:hover {opacity:0.6;filter:alpha(opacity=60);}
 
-.btn:hover, .sharelink:hover, .navlink:hover
+.btn:hover, .sharelink:hover
 {opacity:0.6;filter:alpha(opacity=60);}
 
-.btn,.sharelink,.navlink,
+.navlink span:hover {
+    opacity:0.6;filter:alpha(opacity=60);
+}
+
+.btn,.sharelink,
 .vjs-big-play-button span,
 a
 {-webkit-transition:   all 0.3s ease;-moz-transition:  all 0.3s ease;-o-transition:  all 0.3s ease;-ms-transition:  all 0.3s ease;transition:  all 0.3s ease;}

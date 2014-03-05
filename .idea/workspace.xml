@@ -2,12 +2,544 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="145ec0a1-d436-4cbb-8780-04ae965d2e5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/plugin/skrollr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ie6.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery/jquery-1.8.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/plugin/jquery.queryloader22.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Screen Shot 2014-02-28 at 下午12.28.02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/bin-debug/Player.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/Ad.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/Grid.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/GridBmd.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/IPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ImageLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/LayoutMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/MP3Player.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/MediaPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/MiddleBtnAlign.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/Player.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/PlayerEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/PlayerState.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ScaleMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/Skin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/SkinMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/VideoListPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/VideoPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/VolCtrl.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/MaskAni.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/RollModel.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/image/FixImage.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/ImagePlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/MediaEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/MediaPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/MediaPlayerSkin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/MultiPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/MusicPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/Sound.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/VideoPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/application/player/WMPPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/display/UIDisplay.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/display/UILoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/display/UIMovieClip.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/display/UISprite.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/events/MediaEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/events/UIEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/events/UIEventDispatcher.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/interfaces/IBaseObject.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/key/AtkKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/key/CrossKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/key/IKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/key/Key.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/key/KeyEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/key/KeyManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/key/KeyType.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/layout/Display.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/layout/Group.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/layout/Rect.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/BaseManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/ButtonManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/ElementManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/EventManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/ExternalInterfaceManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/LoggerConnectManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/LoggerManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/RemoteManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/RequestManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/SelectManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/ShareObjectManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/SoundManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/SourceManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/WHManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/_RequestLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/manager/_RequestURLLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/math/AkdclMath.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/math/Combination.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/math/Compositor.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/math/Vector2D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/CameraUI.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/MediaPlayer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/PlayItem.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/PlayState.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/PlayerSkin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/Playlist.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/SoundEmbedItem.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/providers/CameraProvider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/providers/IDiplayProvider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/providers/ImageProvider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/providers/MediaProvider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/providers/SoundProvider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/providers/VideoProvider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/media/providers/WMPProvider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/FileREF.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/URLFormater.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/ZipLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/CheckBoxField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/CheckField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/ComboxField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/Field.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/FormAction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/FormStyle.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/RadioButtonField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/RemoteAction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/TextAreaField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/action/TextInputField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/events/FaultEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/events/ResultEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/gotoURL.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/remoting/Fault.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/remoting/Operation.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/net/remoting/Service.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/Fade.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/GC.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/HitTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/MouseWheelFixer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/NetClient.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/PageID.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/SortZ.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/Status.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/TestConst.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/XMLToObject.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/addAttributeToXML.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/addContextMenu.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/copyInstanceToArray.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/copyObject.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/copySimpleTo.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/destroyObject.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/getClassName.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/getCurrentHREF.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/getLoaderInfoProgress.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/localToLocal.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/numberToString.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/numberToTime.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/objectToString.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/objectToURLVariables.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/objectToXML.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/removeFromObject.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/replaceString.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/setDisplayGrayAndDisable.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/setDisplayWH.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/setProgressClip.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/stringToBoolean.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/akdcl/utils/xmlListFilter.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/crypto/HMAC.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/crypto/MD5.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/crypto/MD5Stream.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/crypto/SHA1.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/crypto/SHA224.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/crypto/SHA256.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/crypto/WSSEUsernameToken.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/errors/IllegalStateError.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/fileformats/vcard/Address.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/fileformats/vcard/Email.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/fileformats/vcard/Phone.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/fileformats/vcard/VCard.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/fileformats/vcard/VCardParser.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/net/DynamicURLLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/net/IURIResolver.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/net/MimeTypeMap.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/net/URI.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/net/URIEncodingBitmap.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/net/proxies/RFC2817Socket.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/Database.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/Definition.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/Dict.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/DictionaryServer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/MatchStrategy.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/Response.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/ConnectedEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/DatabaseEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/DefinitionEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/DefinitionHeaderEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/DictionaryServerEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/DisconnectedEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/ErrorEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/MatchEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/MatchStrategiesEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/events/NoMatchEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/util/CompleteResponseEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/protocols/dict/util/SocketHelper.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/serialization/json/JSON.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/serialization/json/JSONDecoder.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/serialization/json/JSONEncoder.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/serialization/json/JSONParseError.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/serialization/json/JSONToken.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/serialization/json/JSONTokenType.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/serialization/json/JSONTokenizer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/ArrayUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/DateUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/DictionaryUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/FractalGeometryGenerator.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/IntUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/NumberFormatter.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/PerspectiveMatrix3D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/StringUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/utils/XMLUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/webapis/ServiceBase.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/webapis/URLLoaderBase.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/adobe/webapis/events/ServiceEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/QQWeiboAPI.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/account/DoAccount.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/broadcast/DoBroadcast.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/fav/DoFav.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/friends/DoFriends.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/ht/DoHT.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/infoUpdate/DoInfoUpdate.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/oauth/DoOauth.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/oauth/OauthKeyQQ.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/other/DoOther.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/privMsg/DoPrivateMsg.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/search/DoSearch.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/tag/DoTag.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/timeline/DoTimeline.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/qq/api/trends/DoTrends.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/standard/DoAPI.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/standard/Oauth.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/core/microBlogs/standard/OauthKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/BlitMask.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/FlexBlitMask.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/OverwriteManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TimelineLite.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TimelineMax.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TweenAlign.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TweenLite.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TweenMax.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TweenNano.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TweenProxy.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/TweenProxy3D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/core/Animation.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/core/PropTween.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/core/SimpleTimeline.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/core/TweenCore.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/BevelFilterVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/BlurFilterVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/ColorMatrixFilterVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/ColorTransformVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/DropShadowFilterVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/FilterVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/GlowFilterVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/TransformAroundCenterVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/TransformAroundPointVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/TweenLiteVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/TweenMaxVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/data/VarsCore.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Back.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/BackIn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/BackInOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/BackOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Bounce.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/BounceIn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/BounceInOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/BounceOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Circ.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/CircIn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/CircInOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/CircOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Cubic.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Ease.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/EaseLookup.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Elastic.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/ElasticIn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/ElasticInOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/ElasticOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Expo.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/ExpoIn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/ExpoInOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/ExpoOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/FastEase.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Linear.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Power0.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Power1.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Power2.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Power3.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Power4.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Quad.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Quart.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Quint.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/RoughEase.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Sine.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/SineIn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/SineInOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/SineOut.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/SlowMo.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/SteppedEase.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/Strong.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/core/EasePoint.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/easing/easing_readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/events/LoaderEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/events/TweenEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/layout/AlignMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/layout/AutoFitArea.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/layout/ScaleMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/BinaryDataLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/CSSLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/DataLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/ImageLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/LoaderMax.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/LoaderStatus.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/MP3Loader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/SWFLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/SelfLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/VideoLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/XMLLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/core/DisplayObjectLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/core/LoaderCore.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/core/LoaderItem.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/CSSLoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/DataLoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/ImageLoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/LoaderMaxVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/MP3LoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/SWFLoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/VideoLoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/XMLLoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/core/DisplayObjectLoaderVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/core/LoaderCoreVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/data/core/LoaderItemVars.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/display/ContentDisplay.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/loading/display/FlexContentDisplay.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/motionPaths/Circle2D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/motionPaths/CirclePath2D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/motionPaths/Direction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/motionPaths/LinePath2D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/motionPaths/MotionPath.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/motionPaths/PathFollower.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/motionPaths/RectanglePath2D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/AutoAlphaPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/BevelFilterPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/BezierPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/BezierThroughPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/BlurFilterPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/CacheAsBitmapPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/Circle2DPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/CirclePath2DPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/ColorMatrixFilterPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/ColorTransformPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/DirectionalRotationPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/DropShadowFilterPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/DynamicPropsPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/EndArrayPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/EndVectorPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/FastTransformPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/FilterPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/FrameBackwardPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/FrameForwardPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/FrameLabelPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/FramePlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/GlowFilterPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/HexColorsPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/MotionBlurPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/OnChangeRatioPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/OnCompleteRenderPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/Physics2DPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/PhysicsPropsPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/Positions2DPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/QuaternionsPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/RemoveTintPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/RoundPropsPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/ScalePlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/ScrollRectPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/SetActualSizePlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/SetSizePlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/ShortRotationPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/SoundTransformPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/StageQualityPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/TintPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/TransformAroundCenterPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/TransformAroundPointPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/TransformMatrixPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/TweenPlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/TweenProxy.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/TweenProxy3D.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/VisiblePlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/plugins/VolumePlugin.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/text/FlexSplitTextField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/text/SplitTextField.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/transform/FlexTransformManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/transform/TransformItem.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/transform/TransformManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/greensock/transform/utils/MartixTools.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/Crypto.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/cert/MozillaRootCertificates.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/cert/X509Certificate.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/cert/X509CertificateCollection.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/HMAC.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/IHash.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/MD2.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/MD5.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/SHA1.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/SHA224.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/SHA256.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/hash/SHABase.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/prng/ARC4.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/prng/IPRNG.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/prng/Random.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/prng/TLSPRF.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/rsa/RSAKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/AESKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/BlowFishKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/CBCMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/CFB8Mode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/CFBMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/CTRMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/DESKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/ECBMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/ICipher.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/IMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/IPad.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/IStreamCipher.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/ISymmetricKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/IVMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/NullPad.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/OFBMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/PKCS5.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/SimpleIVMode.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/TLSPad.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/TripleDESKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/symmetric/XTeaKey.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/AESKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/ARC4Test.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/BigIntegerTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/BlowFishKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/CBCModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/CFB8ModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/CFBModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/CTRModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/DESKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/ECBModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/HMACTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/ITestHarness.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/MD2Test.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/MD5Test.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/OFBModeTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/RSAKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/SHA1Test.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/SHA224Test.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/SHA256Test.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/TLSPRFTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/TestCase.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/TripleDESKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tests/XTeaKeyTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/BulkCiphers.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/CipherSuites.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/KeyExchanges.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/MACs.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSConfig.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSConnectionState.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSEngine.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSError.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSSecurityParameters.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSSocket.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/crypto/tls/TLSTest.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/math/BarrettReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/math/BigInteger.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/math/ClassicReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/math/IReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/math/MontgomeryReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/math/NullReduction.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/math/bi_internal.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/ArrayUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/Base64.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/Hex.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/Memory.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/ByteString.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/DER.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/IAsn1Type.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/Integer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/OID.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/ObjectIdentifier.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/PEM.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/PrintableString.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/Sequence.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/Set.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/Type.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/hurlant/util/der/UTCTime.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/oaxoa/fx/Lightning.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/oaxoa/fx/LightningFadeType.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/util/OauthUrlUtil.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/util/http/Clear.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/util/http/HttpConnection.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/util/http/HttpEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/com/util/http/HttpParameter.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/player.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/player2.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/player3.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/player4.fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/player_cs5(1).fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/player_cs5(2).fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/player_cs5(3).fla" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/Alert.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/Btn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/BtnLabel.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/DocClassLoading.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/ImageLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/ProgressBar.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/ScrollContainer.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/SimpleBtn.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/Slider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/SliderCircle.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/Txt.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/TxtAutoRoll.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/manager/FLManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/manager/FontManager.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/ArrowShapeClass.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/ContainPointClass.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/MathClass.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/MatrixClass.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/ShapeClass.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/SpriteClass.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/StateClass.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/ui/transformTool/TransformTool.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/FileTypes.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/codec/BMPEncoder.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/codec/PNGEncoder.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/lcs/LC.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/ui/ImgLoader.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/ui/Slider.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/utils/playAll.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/src/zero/utils/stopAll.as" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/1.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player copy.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player2.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player2.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player3.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player4.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/video-player/web/player4.swf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/video/1.mp4" afterPath="$PROJECT_DIR$/video/1.mp4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/nav.gif" afterPath="$PROJECT_DIR$/img/nav.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/page1video.jpg" afterPath="$PROJECT_DIR$/img/page1video.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/api.js" afterPath="$PROJECT_DIR$/js/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imgMobile/page1video.jpg" afterPath="$PROJECT_DIR$/imgMobile/page1video.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/page2tit2.gif" afterPath="$PROJECT_DIR$/img/page2tit2.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/page3btn1.gif" afterPath="$PROJECT_DIR$/img/page3btn1.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animation.css" afterPath="$PROJECT_DIR$/css/animation.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/config.js" afterPath="$PROJECT_DIR$/js/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discover.html" afterPath="$PROJECT_DIR$/discover.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery/jquery-1.102.js" afterPath="$PROJECT_DIR$/js/jquery/jquery-1.102.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lp.base.js" afterPath="$PROJECT_DIR$/js/lp.base.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/touch.html" afterPath="$PROJECT_DIR$/touch.html" />
@@ -17,28 +549,76 @@
     </list>
     <ignored path="gl0228.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393830846962" ignored="false" />
-    <file path="/style.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393845318957" ignored="false" />
+    <file path="/Dummy.txt" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394001599073" ignored="false" />
+    <file path="/style.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394019883657" ignored="false" />
     <file path="/nav2.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393728541465" ignored="false" />
-    <file path="/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842084229" ignored="false" />
+    <file path="/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394022785654" ignored="false" />
     <file path="/nav1.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393742401731" ignored="false" />
-    <file path="/video-js.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393836681454" ignored="false" />
-    <file path="/animation.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393756358349" ignored="false" />
-    <file path="/index.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393756251357" ignored="false" />
-    <file path="/video.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393756409281" ignored="false" />
-    <file path="/discover.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393837354901" ignored="false" />
-    <file path="/touch.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393832221949" ignored="false" />
+    <file path="/video-js.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393899906305" ignored="false" />
+    <file path="/animation.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394018027266" ignored="false" />
+    <file path="/index.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394018386803" ignored="false" />
+    <file path="/video.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393944083621" ignored="false" />
+    <file path="/discover.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394019354361" ignored="false" />
+    <file path="/touch.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394018927549" ignored="false" />
     <file path="$PROJECT_DIR$/../bank_wall/js/api.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393760212376" ignored="false" />
     <file path="/api.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393760211618" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/js/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842393738" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/include/tpl.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842212374" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/css/video-js.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393836472129" ignored="false" />
-    <file path="/tpl.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393842212689" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/api/protected/models/NodeAR.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393841260167" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/api/simplesamlphp/metadata/saml20-idp-remote.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393844049731" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/api/simplesamlphp/config/authsources.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393844103737" ignored="false" />
-    <file path="$PROJECT_DIR$/../bank_wall/wmv_player.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393855258055" ignored="false" />
-    <file path="/wmv_player.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393855255819" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/js/lp.base.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394022899091" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/include/tpl.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394021737617" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/css/video-js.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393856017597" ignored="false" />
+    <file path="/tpl.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394000078956" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/protected/models/NodeAR.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393989738742" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/simplesamlphp/metadata/saml20-idp-remote.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393856017597" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/simplesamlphp/config/authsources.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393856017597" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/wmv_player.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393958366692" ignored="false" />
+    <file path="/wmv_player.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393958345270" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/PyGmail/gmail.py" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393990889537" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/text.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393936606728" ignored="false" />
+    <file path="/text.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393866846391" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/PyGmail/gmail.live.py" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393857807841" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/css/layout.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394022232133" ignored="false" />
+    <file path="/layout.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393988347917" ignored="false" />
+    <file path="/NodeAR.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393926384931" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/protected/controllers/NodeController.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393989750706" ignored="false" />
+    <file path="/NodeController.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393926490297" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/protected/controllers/UploadsController.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393936606728" ignored="false" />
+    <file path="/UploadsController.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393926355368" ignored="false" />
+    <file path="/ie6.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394020525113" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/js/ie8.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393996090544" ignored="false" />
+    <file path="/ie8.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393995960687" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/css/ie.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393936606728" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/css/ie8.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393936606727" ignored="false" />
+    <file path="/a.dummy" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393961515402" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/winner.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394002010983" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/api/admin_asset/tmp/winner/post.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393930069480" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/api/admin_asset/js/controllers/winner.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393930088279" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/api/admin_asset/tmp/winner/list.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393930207102" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/api/protected/models/Winner.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393931585908" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/api/protected/components/Controller.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393940406701" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/m/css/layout.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393988350324" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/js/lp.base-m.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394021950629" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/include/tpl_mobile.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394024162207" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/lang/fr.po" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394027347004" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/lang/en.po" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394021901624" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/lang/fr.json" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394027415866" ignored="false" />
+    <file path="/en.po" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394021901624" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/lang/en.json" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393987685779" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/css/animation.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393991289873" ignored="false" />
+    <file path="/needtocombine.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393991637762" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/css/needtocombine.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1393996943905" ignored="false" />
+    <file path="/tpl_mobile.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394000191296" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/index.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394001892143" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/index.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394001927227" ignored="false" />
+    <file path="$PROJECT_DIR$/../avene_photowall/rule.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394001984686" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/brdg/index.html" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394005168432" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/brdg/css/styles.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394005294764" ignored="false" />
+    <file path="/styles.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394005293659" ignored="false" />
+    <file path="/fr.po" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394027347004" ignored="false" />
+    <file path="/lp.base-m.js" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394021949558" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/index.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394022173007" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/m/index.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394021370200" ignored="false" />
+    <file path="/index.php" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394022172651" ignored="false" />
+    <file path="$PROJECT_DIR$/../bank_wall/css/oldie.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394022167365" ignored="false" />
+    <file path="/oldie.css" changelist="145ec0a1-d436-4cbb-8780-04ae965d2e5e" time="1394022165884" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +641,36 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="22" selection-start="3663" selection-end="3663" vertical-scroll-proportion="-10.214286">
+            <state line="61" column="54" selection-start="7838" selection-end="7838" vertical-scroll-proportion="-22.392857">
               <folding>
-                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1393832680000" expanded="true" signature="8102:8215" placeholder="..." />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1394018560000" expanded="true" signature="9676:9789" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/config.js">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/91150th/app/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="1865" column="8" selection-start="69699" selection-end="69742" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1380269761000" expanded="false" signature="1465:1506" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/js/main.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/91150th/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="23" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="35" column="14" selection-start="1713" selection-end="1713" vertical-scroll-proportion="-8.821428">
+              <folding>
+                <marker date="1381821404000" expanded="true" signature="629:699" placeholder="..." />
+                <marker date="1381821404000" expanded="true" signature="639:689" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,25 +678,11 @@
       <file leaf-file-name="touch.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/touch.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="43" selection-start="8103" selection-end="8103" vertical-scroll-proportion="-17.964285">
+            <state line="95" column="24" selection-start="9425" selection-end="9441" vertical-scroll-proportion="-15.607142">
               <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1393832508000" expanded="true" signature="9546:9659" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="discover.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/discover.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="127" selection-start="7035" selection-end="7035" vertical-scroll-proportion="-13.571428">
-              <folding>
-                <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1393837248000" expanded="true" signature="9634:9747" placeholder="..." />
+                <marker date="1394018926000" expanded="true" signature="11363:11476" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -119,20 +691,51 @@
       <file leaf-file-name="video.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="14" selection-start="7293" selection-end="7773" vertical-scroll-proportion="-26.785715">
+            <state line="15" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="-3.392857">
               <folding>
-                <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1393832673000" expanded="true" signature="8193:8306" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1394018596000" expanded="true" signature="10736:10849" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="discover.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/discover.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="50" selection-start="6044" selection-end="6044" vertical-scroll-proportion="-9.5">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1394019374000" expanded="true" signature="11117:11230" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="131" selection-start="733" selection-end="733" vertical-scroll-proportion="0.23829432">
+            <state line="71" column="147" selection-start="4777" selection-end="4777" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ie6.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/ie6.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="31" selection-start="139" selection-end="139" vertical-scroll-proportion="0.06424345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animation.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/animation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,16 +744,7 @@
       <file leaf-file-name="lp.base.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/lp.base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video-js.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/video-js.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="310" column="27" selection-start="8635" selection-end="8635" vertical-scroll-proportion="-19.384615">
+            <state line="161" column="38" selection-start="5193" selection-end="5193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -176,25 +770,29 @@
       <list>
         <option value="$PROJECT_DIR$/nav2.html" />
         <option value="$PROJECT_DIR$/nav1.html" />
-        <option value="$PROJECT_DIR$/css/animation.css" />
-        <option value="$PROJECT_DIR$/touch.html" />
-        <option value="$PROJECT_DIR$/video.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/config.js" />
         <option value="$PROJECT_DIR$/js/api.js" />
+        <option value="$PROJECT_DIR$/js/config.js" />
+        <option value="$PROJECT_DIR$/js/plugin/jquery.queryloader22.js" />
+        <option value="$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/js/main.js" />
+        <option value="$PROJECT_DIR$/js/jquery/jquery-1.102.js" />
         <option value="$PROJECT_DIR$/css/video-js.css" />
         <option value="$PROJECT_DIR$/js/lp.base.js" />
+        <option value="$PROJECT_DIR$/css/animation.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/video.html" />
+        <option value="$PROJECT_DIR$/touch.html" />
         <option value="$PROJECT_DIR$/discover.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/ie6.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
+    <option name="x" value="89" />
     <option name="y" value="22" />
-    <option name="width" value="2256" />
-    <option name="height" value="1357" />
+    <option name="width" value="2399" />
+    <option name="height" value="1331" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,6 +820,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,11 +849,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flash" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gl0228" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerlain0228" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="video-player" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gl0228" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerlain0228" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gl0228" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gerlain0228" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,14 +919,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/js/jquery" />
       <recent name="$PROJECT_DIR$/js/plugin" />
     </key>
   </component>
@@ -322,14 +969,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="2256" height="1357" extended-state="0" />
+    <frame x="89" y="22" width="2399" height="1331" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2520362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18147047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -405,135 +1052,126 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/config-m.js">
+    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="397" selection-end="476" vertical-scroll-proportion="0.0">
+        <state line="33" column="16" selection-start="1456" selection-end="1596" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.102.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="93446" selection-start="93499" selection-end="93499" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.8.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="35" selection-start="0" selection-end="93636" vertical-scroll-proportion="0.015886288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugin/jquery.queryloader22.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="17" selection-start="1488" selection-end="1488" vertical-scroll-proportion="0.235732" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="139" selection-start="2609" selection-end="2728" vertical-scroll-proportion="0.625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/video-js.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="189" column="13" selection-start="5111" selection-end="5111" vertical-scroll-proportion="0.015859766">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../gar_nier/index.html">
+    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/91150th/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="65" selection-start="5272" selection-end="5312" vertical-scroll-proportion="0.016239317">
-          <folding />
+        <state line="35" column="14" selection-start="1713" selection-end="1713" vertical-scroll-proportion="-8.821428">
+          <folding>
+            <marker date="1381821404000" expanded="true" signature="629:699" placeholder="..." />
+            <marker date="1381821404000" expanded="true" signature="639:689" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/animation.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="126" selection-end="126" vertical-scroll-proportion="0.015859766">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lp.base-m.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="68" selection-start="89" selection-end="95" vertical-scroll-proportion="0.015859766">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/plugin/skrollr.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="77" selection-start="214" selection-end="214" vertical-scroll-proportion="0.015886288">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="3663" selection-end="3663" vertical-scroll-proportion="-10.214286">
-          <folding>
-            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1393832680000" expanded="true" signature="8102:8215" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="899" selection-end="899" vertical-scroll-proportion="0.37717122">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="108" selection-start="4659" selection-end="4750" vertical-scroll-proportion="0.27654108">
-          <folding>
-            <marker date="1390816975000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="14" selection-start="7293" selection-end="7773" vertical-scroll-proportion="-26.785715">
-          <folding>
-            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1393832673000" expanded="true" signature="8193:8306" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/touch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="43" selection-start="8103" selection-end="8103" vertical-scroll-proportion="-17.964285">
-          <folding>
-            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1393832508000" expanded="true" signature="9546:9659" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="1748" selection-end="1748" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/avene_redness/0110/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="23" selection-start="4090" selection-end="4090" vertical-scroll-proportion="0.0">
+        <state line="5" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lp.base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="13" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
+        <state line="161" column="38" selection-start="5193" selection-end="5193" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/video-js.css">
+    <entry file="file://$PROJECT_DIR$/../../../XAMPP/xamppfiles/htdocs/91150th/app/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="27" selection-start="8635" selection-end="8635" vertical-scroll-proportion="-19.384615">
-          <folding />
+        <state line="1865" column="8" selection-start="69699" selection-end="69742" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1380269761000" expanded="false" signature="1465:1506" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="54" selection-start="7838" selection-end="7838" vertical-scroll-proportion="-22.392857">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394018560000" expanded="true" signature="9676:9789" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="28" selection-start="861" selection-end="861" vertical-scroll-proportion="-3.392857">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394018596000" expanded="true" signature="10736:10849" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/touch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="24" selection-start="9425" selection-end="9441" vertical-scroll-proportion="-15.607142">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394018926000" expanded="true" signature="11363:11476" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/discover.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="127" selection-start="7035" selection-end="7035" vertical-scroll-proportion="-13.571428">
+        <state line="51" column="50" selection-start="6044" selection-end="6044" vertical-scroll-proportion="-9.5">
           <folding>
-            <element signature="n#style#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1393837248000" expanded="true" signature="9634:9747" placeholder="..." />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1394019374000" expanded="true" signature="11117:11230" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="131" selection-start="733" selection-end="733" vertical-scroll-proportion="0.23829432">
+        <state line="71" column="147" selection-start="4777" selection-end="4777" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ie6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="31" selection-start="139" selection-end="139" vertical-scroll-proportion="0.06424345">
           <folding />
         </state>
       </provider>
