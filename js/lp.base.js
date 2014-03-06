@@ -46,14 +46,8 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
         $(this)[0].pause();
     });
 
-    if($('video').length > 0) {
-        $('video')[0].addEvent('ended', function()
-        {
-            $('video')[0].posterImage.show();
-        });
-    }
 
-	$('.mobile_nav a').on('click', function(e){
+  	$('.mobile_nav a').on('click', function(e){
 		e.preventDefault();
         if($(this).hasClass('mshare')) return;
 		LP.triggerAction('toggle_side_bar', 'left');
@@ -76,6 +70,9 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
                 else {
                     LP.use('video-js' , function(){
                         videojs( "inner-video" , {}, function(){
+                            $('.vjs-big-play-button').on('click',function(){
+                                $('video').attr('poster','');
+                            });
                         });
                     });
                 }
@@ -157,6 +154,7 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
                 $('.loading-line').css({'width':per+'%'});
             },
             onComplete : function(){
+                $('.hide-bar').hide();
                 $('.page-wrap').fadeIn(600);
                 $('.nav').fadeIn(600);
                 $('.share').fadeIn(600);
@@ -281,6 +279,11 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
     $('.indexbtn').click(function(){
         _smq.push(['custom','homepage','08video2']);
         ga('send', 'custom', 'homepage', '08video2', '08video2');
+    });
+
+    $('.page1btn').click(function(){
+        _smq.push(['custom','video1','10product2']);
+        ga('send', 'custom', 'video1', '10product2', '10product2');
     });
 
     $('.page1video').click(function(){

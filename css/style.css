@@ -23,7 +23,7 @@ a{text-decoration:none}
 .cs-clear:after{clear:both;content:".";font-size:0;display:block;height:0;overflow:hidden;visibility:hidden;}
 .btn {cursor: pointer;}
 .page-wrap {display: none;}
-
+.hide-bar {height:1200px;width:2px;position: absolute;top:0;left:0;}
 
 /* Page Used 
 ================================================================================================= */
@@ -81,6 +81,7 @@ a{text-decoration:none}
         .page2poptxt label{width:120px;float:left;text-align: right;}
         .page2poptxt p,
         .page2poptxt ul{float:left;width: 510px;padding:0 20px;}
+        .pop-weixin .page2poptxt p {width:410px}
         .page2poptxt li{padding-bottom:0px;display: block}
 
 .page3{position: relative;}
