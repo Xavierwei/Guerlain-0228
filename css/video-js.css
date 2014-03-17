@@ -43,7 +43,7 @@ The default control bar that is a container for most of the controls.
   position: absolute;
   /* Place control bar at the bottom of the player box/video.
      If you want more margin below the control bar, add more height. */
-  bottom: 23px;
+  bottom: -53px;
   /* Use left/right to stretch to 100% width of player div */
   left: 0;
   right: 0;
@@ -51,9 +51,6 @@ The default control bar that is a container for most of the controls.
   height: 30px;
   /* background-color-with-alpha */
   background-color: none;
-}
-.vjs-user-inactive .vjs-control-bar {
-    opacity: 0;
 }
 .vjs-user-active .vjs-control-bar {
     opacity: 1;
@@ -249,7 +246,7 @@ The default control bar that is a container for most of the controls.
       The -50% left position makes that happen.
   */
 
-  background: #fff;
+  background: #a8a8a8;
 }
 .vjs-default-skin .vjs-load-progress {
   background: #646464 /* IE8- Fallback */;
@@ -596,6 +593,8 @@ body.vjs-full-window {
 }
 /* Poster Styles */
 .vjs-poster {
+    position: absolute;
+    top:0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
@@ -603,7 +602,6 @@ body.vjs-full-window {
   height: 100%;
   margin: 0;
   padding: 0;
-  position: relative;
   width: 100%;
 }
 .vjs-poster img {
