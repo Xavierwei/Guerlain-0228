@@ -7,6 +7,7 @@
 ================================================================================================= */
 body{overflow-x:hidden;}
 .wrap{width:940px;overflow: hidden;margin:0 auto;}
+.index{width:940px;overflow: hidden;margin:0 auto;}
 .indexbg{margin-left: -20% }
 .indexintro{right:90px; }
 .indexbtn{right:200px;}
