@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*
+ * gl weibo940 2013 10 
+ */
+
+/* 940
+================================================================================================= */
+body{overflow-x:hidden;}
+.wrap{width:940px;overflow: hidden;margin:0 auto;}
+.indexbg{margin-left: -20% }
+.indexintro{right:90px; }
+.indexbtn{right:200px;}
+.page3item{width:32%;}
+.modintro{width:380px;font-size: 12px}
+
+/**/
+.page3bgtxt2,
+.page3txt,
+.modsharetxt{font-size:12px;}
