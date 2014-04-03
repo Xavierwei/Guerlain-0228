@@ -112,6 +112,16 @@ a{text-decoration:none}
 .footer{border-top:1px solid #000;background: #fff url('../img/logo2.gif') no-repeat center;width: 100%;height:145px }
 
 
+@media screen and (min-width:641px){
+    .touch .indexintro {right:50px;}
+    .touch .indexbtn {right:160px;}
+    .touch .page3bg {background: none;}
+    .touch .page3img-wrap {background: url('../img/page3bg.jpg') no-repeat;background-size:100% auto;}
+    .touch .page1video video {width:900px;height:506px;}
+    .touch .ipad .turn_device {display: none;z-index:1000;position: fixed;top:0;left:0;width:100%;height:100%;background:#fff url(../imgMobile/ipad_turn.gif) no-repeat center;}
+    .touch .turn_device {display: none;z-index:1000;position: fixed;top:0;left:0;width:100%;height:100%;background:#fff url(../imgMobile/device_turn.gif) no-repeat center;}
+}
+
 /* Mobile Used
 ================================================================================================= */
 @media screen and (max-width:640px){
@@ -126,6 +136,8 @@ a{text-decoration:none}
     .nav{display: none!important;}
     .share{display: none!important;}
     .desktop {display: none;}
+
+
     .mobile{display: block;}
         .mobile_navbtn{background: url('../imgMobile/navbtn.gif') no-repeat;width:57px;height: 45px;position: absolute;right:14px;top:30px}
         .mobile_options{display:none;position: fixed;right:0;top: 0;bottom: 0;background: #fff;width:550px;z-index: 10;border-left:#d4d4d4 solid 1px;
@@ -186,5 +198,3 @@ a{text-decoration:none}
         .page3btn1 {background:#fff;color:#000;}
         .page3price {font-size:26px;}
 }
-
-.turn_device {display: none;z-index:1000;position: fixed;top:0;left:0;width:100%;height:100%;background:#fff url(../imgMobile/device_turn.gif) no-repeat center;}

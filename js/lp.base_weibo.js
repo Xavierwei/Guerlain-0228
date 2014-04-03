@@ -6,13 +6,7 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
 
     var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > 0;
 	var isIphone = navigator.userAgent.toLowerCase().indexOf('iphone') > 0;
-    var isIpad = navigator.userAgent.toLowerCase().indexOf('ipad') > 0;
 	var windWidth = $(window).width() - 90;
-
-    if(isIpad) {
-        $('body').addClass('ipad');
-        $('meta[name=viewport]').attr('content','width=980, minimum-scale=1, maximum-scale=1, target-densityDpi=290,user-scalable=no');
-    }
 
     if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
         var msViewportStyle = document.createElement("style");
@@ -27,24 +21,13 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
     
     $(window).bind('orientationchange', function() {
         var o = window.orientation;
-        if(!isIpad) {
-            if (o != 90 && o != -90) {
-                $('.turn_device').hide();
-            } else {
-                $('.turn_device').show();
-            }
-        }
-        else {
-            if (o != 90 && o != -90) {
-                $('.turn_device').show();
-            } else {
-                $('.turn_device').hide();
-            }
+
+        if (o != 90 && o != -90) {
+            $('.turn_device').hide();
+        } else {
+            $('.turn_device').show();
         }
     });
-
-    $(window).trigger('orientationchange');
-
 
 	var sideDirection;
     if($('html').hasClass('touch')) {
@@ -123,7 +106,6 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
 
                             $('video').on('ended', function(){
                                 $('.vjs-poster').show();
-                                $(window).trigger('resize');
                             });
                         });
                     });
@@ -134,15 +116,11 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
             if(getQueryString('video')) {
                 LP.compile( 'flash-player-auto-template' , {} , function( html ){
                     $('.page1video').html(html);
-                    var height = $(window).width()*0.9 / (1280/720);
-                    $('.page1video').height(height);
                 });
             }
             else {
                 LP.compile( 'flash-player-template' , {} , function( html ){
                     $('.page1video').html(html);
-                    var height = $(window).width()*0.9 / (1280/720);
-                    $('.page1video').height(height);
                 });
             }
 
@@ -150,16 +128,10 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
     }
 
 
-    $(window).resize(function(){
-        var height = $(window).width()*0.9 / (1280/720);
-        $('.page1video, .vjs-poster').height(height);
-    });
+
 
 
 	LP.action('toggle_side_bar', function(type){
-        if($(window).width() > 640) {
-            return;
-        }
 		var $side = $('.mobile_options');
 		var $wrap = $('.wrap');
 		if($side.hasClass('moving')) return;
@@ -273,9 +245,6 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
                         }
                     });
 
-                if($('html').hasClass('touch')) {
-                    return;
-                }
                 var timeoffset = isUglyIe?0:0;
                 setTimeout(function(){
                     var s = skrollr.init({
@@ -288,12 +257,13 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
         });
     }
 
-    if($(window).width() >= 640) {
+    if(!$('html').hasClass('touch')) {
         init();
         $('.header .logo img').ensureLoad(function(){
             $(this).fadeIn(1000);
         });
     }
+
 
     jQuery.fn.extend({
         ensureLoad: function(handler) {
@@ -317,22 +287,22 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
 
     $('.logo').click(function(){
         _smq.push(['custom','homepage','01Logo']);
-        ga('send', 'custom', 'homepage', '01Logo', '01Logo');
+        ga('send', 'custom', 'homepage', 'LOGO', 'LOGO');
     });
 
     $('.navlink1').click(function(){
         _smq.push(['custom','NAV','02video1']);
-        ga('send', 'custom', 'NAV', '02video1', '02video1');
+        ga('send', 'custom', 'NAV', 'PRO', 'PRO');
     });
 
     $('.navlink2').click(function(){
         _smq.push(['custom','NAV','03product1']);
-        ga('send', 'custom', 'NAV', '03product1', '03product1');
+        ga('send', 'custom', 'NAV', 'TEXT', 'TEXT');
     });
 
     $('.navlink3').click(function(){
         _smq.push(['custom','NAV','04countent1']);
-        ga('send', 'custom', 'NAV', '04countent1', '04countent1');
+        ga('send', 'custom', 'NAV', 'Video_1', 'Video_1');
     });
 
     $('.share a').eq(0).click(function(){
@@ -352,37 +322,37 @@ LP.use(['jquery', 'api', 'easing', 'skrollr', 'flash-detect', 'hammer', 'transit
 
     $('.indexbtn').click(function(){
         _smq.push(['custom','homepage','08video2']);
-        ga('send', 'custom', 'homepage', '08video2', '08video2');
+        ga('send', 'custom', 'homepage', 'PLAY', 'PLAY');
     });
 
     $('.page1btn').click(function(){
         _smq.push(['custom','video1','10product2']);
-        ga('send', 'custom', 'video1', '10product2', '10product2');
+        ga('send', 'custom', 'video1', 'Product_3', 'Product_3');
     });
 
     $('.page1video').click(function(){
         _smq.push(['custom','video1','09play']);
-        ga('send', 'custom', 'video1', '09play', '09play');
+        ga('send', 'custom', 'video1', 'Play_2', 'Play_2');
     });
 
     $('.modintrobtn').click(function(){
         _smq.push(['custom','product1','11store']);
-        ga('send', 'custom', 'product1', '11store', '11store');
+        ga('send', 'custom', 'product1', 'Store', 'Store');
     });
 
     $('.modintrobtn2').click(function(){
         _smq.push(['custom','product1','12huati']);
-        ga('send', 'custom', 'product1', '12huati', '12huati');
+        ga('send', 'custom', 'product1', 'Huati', 'Huati');
     });
 
     $('.page3btn1').click(function(){
         _smq.push(['custom','countent1','13collection']);
-        ga('send', 'custom', 'countent1', '13collection', '13collection');
+        ga('send', 'custom', 'countent1', 'TMALL', 'TMALL');
     });
 
     $('.page3btn2').click(function(){
         _smq.push(['custom','countent1','14buy']);
-        ga('send', 'custom', 'countent1', '14buy', '14buy');
+        ga('send', 'custom', 'countent1', 'Product_2', 'Product_2');
     });
 
 

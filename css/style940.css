@@ -7,10 +7,10 @@
 ================================================================================================= */
 body{overflow-x:hidden;}
 .wrap{width:940px;overflow: hidden;margin:0 auto;}
-.index{width:940px;overflow: hidden;margin:0 auto;}
+.index{width:940px;overflow: hidden;margin:0 auto;position:relative;top:0;}
 .indexbg{margin-left: -20% }
-.indexintro{right:90px; }
-.indexbtn{right:200px;}
+.indexintro{right:63px; }
+.indexbtn{right:120px;}
 .page3item{width:32%;}
 .modintro{width:380px;font-size: 12px}
 
@@ -18,3 +18,10 @@ body{overflow-x:hidden;}
 .page3bgtxt2,
 .page3txt,
 .modsharetxt{font-size:12px;}
+.page3mess {height:360px;padding:125px 0 0;}
+
+.index {background: url(../img/940/home_bg.jpg) no-repeat;height:434px;}
+.indexintro {background: url(../img/940/index_intro.png) no-repeat;width:243px;height:107px;margin:-92px 0 0;}
+.indexbtn {background: url(../img/940/index_btn.png) no-repeat;width:122px;height:64px;}
+.page3-background-cover {background: none;}
+.page3img-wrap {background: url(../img/940/page3bg.jpg) no-repeat;width:940px;height: 510px;}
